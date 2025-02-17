@@ -16,20 +16,20 @@ const styles = StyleSheet.create({
   card: {
     width: '100%',
     height: 500,
-    justifyContent: 'center', // Centra el contenido verticalmente
+    justifyContent: 'center', 
     alignItems: 'center',
   },
   textContainer: {
-    alignItems: 'center', // Centra los elementos horizontalmente
-    justifyContent: 'center', // Centra los elementos verticalmente
-    width: '80%', // Controla el ancho del texto para que no se expanda demasiado
+    alignItems: 'center', 
+    justifyContent: 'center', 
+    width: '80%', 
   },
   message: {
     fontSize: 24,
     color: '#a2d2ff',
     fontWeight: 'bold',
     textAlign: 'center',
-    marginBottom: 10, // Espacio entre el mensaje y el emoji
+    marginBottom: 10, 
   },
   emoji: {
     fontSize: 40,
